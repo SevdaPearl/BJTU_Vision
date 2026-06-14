@@ -72,7 +72,7 @@ image_retrieval/query
 - `outputs/detection_results/manual_review.csv`：人工核验表。
 
 人工核验：
-先打开`outputs/detection_results/manual_review`，
+打开`outputs/detection_results/manual_review`，
 在 `manual_result` 中填写：
    - `OK`：文字框基本正确。
    - `missed_text`：有明显文字没有框出来
@@ -83,7 +83,7 @@ image_retrieval/query
 
 ## 6. GitHub 提交说明
 
-提交了代码、README 、演示视频和 notebooks，未提交数据集与大规模运行结果。
+提交了代码、README 、演示视频、性能总结图和 notebooks，未提交数据集与大规模结果。
 
 `.gitignore` 已经排除了：
 
@@ -92,5 +92,3 @@ image_retrieval/
 object_detection/
 outputs/cache/
 ```
-
-如果老师要求展示结果，可以在报告中放关键图片，或把结果截图/演示视频另行提交。
