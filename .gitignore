@@ -1,0 +1,17 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
+.vscode/
+
+# dataset folders should not be pushed to GitHub
+image_retrieval/
+object_detection/
+
+# generated results and caches
+outputs/cache/
+outputs/retrieval_results/*.csv
+outputs/retrieval_results/topk_grids/*.png
+outputs/pk_curves/*.png
+outputs/detection_results/*.csv
+outputs/detection_results/visual_groups/*.png
