@@ -1,0 +1,6 @@
+# This file is a template. The conversion script will generate datasets/text_yolo/text_yolov5.yaml automatically.
+path: datasets/text_yolo
+train: images/train
+val: images/val
+nc: 1
+names: [text]
